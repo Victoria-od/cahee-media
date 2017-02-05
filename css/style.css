@@ -100,17 +100,21 @@ ul {
 .trigger-img {
   width: 50px;
   height: auto;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  outline:none;}
 
 #mobile-nav-trigger {
-  margin: 0 auto; }
+  margin: 0 auto; 
+  outline:none;}
 
 #mobile-nav-trigger.active {
-  margin: 0 auto; }
+  margin: 0 auto; 
+  outline:none;}
 
-#mobile-nav-trigger.active a img {
+#mobile-nav-trigger.active img {
   width: 50px;
-  height: auto; }
+  height: auto; 
+  outline:none;}
 
 .header {
   width: 100%;
@@ -692,8 +696,8 @@ nav li:hover {
   .fourth-block {
     background-color: #70bfff;
     background-image: url("../img/tomato.png");
-    background-image-repeat: no-repeat;
-    background-image-size: 50%;
+    background-repeat: no-repeat;
+    background-size: 50%;
     width: 100%;
     height: auto; }
   .services {
